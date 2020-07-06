@@ -161,8 +161,8 @@ h1, h2, h3, h4, h5, h6 {
 	margin-left: 10px;
 }
 
-#workwrap {	
-	background: url(../img/work.jpg) no-repeat center top;
+#pacifism-workwrap {	
+	background: url(../img/pacifism.gif) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
@@ -182,8 +182,8 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
-#workwrap h1 {
-	color:#ffffff;
+#pacifism-workwrap h1 {
+	color:lightgray;
 	padding-top: 10px;
 	padding-bottom: 20px;
 	letter-spacing: 4px;
@@ -191,9 +191,114 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 }
 
-#workwrap h4 {
+#pacifism-workwrap h4 {
 	font-weight: 400;
 	color: #ffffff
+}
+
+#szyslak-workwrap {	
+	background: url(../img/szyslak.gif) no-repeat center top;
+	margin-top: -70px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#szyslak-workwrap h1 {
+	color: lightgray;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+#szyslak-workwrap h4 {
+	font-weight: 400;
+	color: #ffffff
+}
+
+#polisee-workwrap {	
+	background: url(../img/poliseesplash.png) no-repeat center top;
+	margin-top: -70px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#polisee-workwrap h1 {
+	color:lightgray;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+#polisee-workwrap h4 {
+	font-weight: 400;
+	color: #ffffff
+}
+
+#flappypong-workwrap {	
+	background: url(../img/flong.gif) no-repeat center top;
+	margin-top: -70px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#flappypong-workwrap h1 {
+	color:darkgray;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+#flappypong-workwrap h4 {
+	font-weight: 400;
+	color: darkgray;
 }
 
 #aboutwrap {	
@@ -222,7 +327,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Gallery */
 .gallery {
+	min-height: 200px;
 	margin-top: 30px;
+	display: flex;
+	align-items: center;
+}
+
+.gallery img{
+	height: 150px;
 }
 
 .gallery img:hover {
