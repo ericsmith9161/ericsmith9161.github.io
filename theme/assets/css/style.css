@@ -370,7 +370,14 @@ h1, h2, h3, h4, h5, h6 {
 	opacity: 1;
 	background: linear-gradient(217deg, #379683, #379683 70.71%),
             linear-gradient(127deg, #5cdb95, #379683 70.71%),
-            linear-gradient(336deg, #8ee4af, #379683  70.71%);;
+            linear-gradient(336deg, #8ee4af, #379683  70.71%);
+}
+
+.about{
+	background: linear-gradient(217deg, #379683, #379683 70.71%),
+            linear-gradient(127deg, #5cdb95, #379683 70.71%),
+						linear-gradient(336deg, #8ee4af, #379683  70.71%);
+	color: #edf5e1;
 }
 
 .gallery div{
