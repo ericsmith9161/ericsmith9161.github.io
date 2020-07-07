@@ -69,7 +69,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
-    color: #4a4a4a;
+    color: #edf5e1;
 }
 
 
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-brand {
-	color:#05386b;
+	color:#edf5e1;
 }
 
 .navbar-default {
@@ -87,13 +87,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #05386b;
+	color: #edf5e1;
 	background-color: transparent;
 	border-bottom: 2px solid #05386b
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #05386b;
+	color: #edf5e1;
 }
 
 /* ==========================================================================
@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #headerwrap h4 {
 	font-weight: 400;
-	color: #05386b
+	color: #edf5e1
 }
 
 #social {
@@ -342,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .gallery img:hover {
-	opacity: 0.4;
+	opacity: 0.7;
 }
 
 .pacifism{
@@ -352,6 +352,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .flong{
 	background-color: lightblue;
+
 }
 
 .polisee{
@@ -361,8 +362,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .szyslak{
-	background-color: lightgoldenrodyellow;
-	color: skyblue;
+	background-color: lightblue;
+	color: lightgoldenrodyellow;
 	font-weight: 600;
 }
 
@@ -370,13 +371,17 @@ h1, h2, h3, h4, h5, h6 {
 	opacity: 1;
 	background: linear-gradient(217deg, #379683, #379683 70.71%),
             linear-gradient(127deg, #5cdb95, #379683 70.71%),
-            linear-gradient(336deg, #8ee4af, #379683  70.71%);
+						linear-gradient(336deg, #8ee4af, #379683  70.71%);
+	background: url(../img/turquoise.jpeg) no-repeat center bottom;
+	background-size: cover;
 }
 
 .about{
 	background: linear-gradient(217deg, #379683, #379683 70.71%),
             linear-gradient(127deg, #5cdb95, #379683 70.71%),
 						linear-gradient(336deg, #8ee4af, #379683  70.71%);
+	background: url(../img/turquoise.jpeg) no-repeat center bottom;
+	background-size: cover;
 	color: #edf5e1;
 }
 
@@ -406,5 +411,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .gallery a:hover{
-	opacity: .4;
+	opacity: .7;
 }
