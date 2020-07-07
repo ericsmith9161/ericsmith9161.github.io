@@ -42,7 +42,7 @@
 }
 
 .centered {
-	text-align: center
+	text-align: center;
 }
 
 .mt {
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-brand {
-	color: #1abc9c;
+	color:#05386b;
 }
 
 .navbar-default {
@@ -87,13 +87,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #1abc9c;
+	color: #05386b;
 	background-color: transparent;
-	border-bottom: 2px solid #1abc9c
+	border-bottom: 2px solid #05386b
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #1abc9c;
+	color: #05386b;
 }
 
 /* ==========================================================================
@@ -101,9 +101,10 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/back.jpg) no-repeat center top;
+	background: url(../img/bg.jpg) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
+	opacity: .8;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
@@ -122,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #headerwrap h1 {
-	color:#ffffff;
+	color:#05386b;
 	padding-top: 10px;
 	padding-bottom: 20px;
 	letter-spacing: 4px;
@@ -132,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #headerwrap h4 {
 	font-weight: 400;
-	color: #ffffff
+	color: #05386b
 }
 
 #social {
@@ -365,7 +366,29 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 600;
 }
 
-.about{
-	background-image: linear-gradient(to right bottom, honeydew , rgb(84, 230, 217));
-	opacity: .9;
+.index{
+	opacity: 1;
+	background: linear-gradient(217deg, #379683, #379683 70.71%),
+            linear-gradient(127deg, #5cdb95, #379683 70.71%),
+            linear-gradient(336deg, #8ee4af, #379683  70.71%);;
+}
+
+.gallery div{
+	width: 98%;
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+}
+
+.polilogo a img{
+	width: 100%;
+}
+
+.gallery div a img{
+	border-radius: 10px;
+}
+
+.szylogo{
+	background-color: lightgoldenrodyellow;
+	border-radius: 10px;
 }
