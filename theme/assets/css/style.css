@@ -369,17 +369,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .index{
 	opacity: 1;
-	background: linear-gradient(217deg, #379683, #379683 70.71%),
-            linear-gradient(127deg, #5cdb95, #379683 70.71%),
-						linear-gradient(336deg, #8ee4af, #379683  70.71%);
 	background: url(../img/turquoise.jpeg) no-repeat center bottom;
 	background-size: cover;
 }
 
 .about{
-	background: linear-gradient(217deg, #379683, #379683 70.71%),
-            linear-gradient(127deg, #5cdb95, #379683 70.71%),
-						linear-gradient(336deg, #8ee4af, #379683  70.71%);
 	background: url(../img/turquoise.jpeg) no-repeat center bottom;
 	background-size: cover;
 	color: #edf5e1;
@@ -416,4 +410,26 @@ h1, h2, h3, h4, h5, h6 {
 
 .dark{
 	color:#05386b;
+}
+
+.resume-link{
+	font-size: xx-large;
+	color: #edf5e1;
+	font-weight: 700;
+	padding: 10px;
+}
+
+.resume-link:hover{
+	cursor: pointer;
+	text-decoration: none;
+	border: 3px solid #edf5e1;
+	font-size: xx-large;
+	color: #edf5e1;
+	border-radius: 10px;
+	opacity: .9;
+}
+
+.resume-link:focus{
+	text-decoration: none;
+	color: #edf5e1;
 }
