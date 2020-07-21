@@ -487,3 +487,22 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: #264653;
 	width: 100vw;
 }
+
+.about-link-index{
+	background-color: #e9c46a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about-link-index a h1{
+	color: rgb(65, 155, 146)
+}
+
+.about-link-index a h1:hover{
+	color: #264653;
+}
+
+.about-link-index a:hover{
+	text-decoration: none;
+}
