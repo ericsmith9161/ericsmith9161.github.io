@@ -1,14 +1,3 @@
-/*
- * Author: Carlos Alvarez
- * URL: http://Alvarez.is
- *
- * Project Name: NYC Design
- * Version: 1.0
- * Date: 04-20-2014
- * URL: 
- */
-
-
 /* ==========================================================================
    Base Styles, Bootstrap Modifications & Fonts Import
    ========================================================================== */
@@ -331,14 +320,21 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Gallery */
 .gallery {
-	min-height: 200px;
+	min-height: 450px;
+	min-width: 540px;
 	margin-top: 30px;
 	display: flex;
 	align-items: center;
+	padding-bottom: 40px;
+}
+
+.gallery div{
+	height: 450px;
 }
 
 .gallery img{
-	height: 150px;
+	height: 300px;
+	width: 100%;
 }
 
 .gallery img:hover {
@@ -369,12 +365,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .index{
 	opacity: 1;
-	background: url(../img/turquoise.jpeg) no-repeat center bottom;
-	background-size: cover;
+	background: rgb(65, 155, 146);
+	/* background-size: cover; */
 }
 
 .about{
-	background: url(../img/turquoise.jpeg) no-repeat center bottom;
+	background: rgb(65, 155, 146);
 	background-size: cover;
 	color: #edf5e1;
 }
@@ -390,14 +386,52 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100%;
 }
 
-.gallery div a img{
+.szylogo{
+	display: flex;
+	flex-direction: column;
+	background-color: lightgoldenrodyellow;
+	border: 0px solid lightgoldenrodyellow;
 	border-radius: 10px;
 }
 
-.szylogo{
-	background-color: lightgoldenrodyellow;
+.szylogo *{
+	color: skyblue
+}
+
+.polilogo{
+	display: flex;
+	flex-direction: column;
+	background-image: linear-gradient(to right bottom, lightgray , rgb(93, 114, 139));
+	border: 0px solid rgb(65, 65, 65);
 	border-radius: 10px;
-	width: 100%;
+}
+
+.polilogo *{
+	color: rgb(65, 65, 65);
+}
+
+.pacilogo{
+	display: flex;
+	flex-direction: column;
+	background-image: linear-gradient(to right bottom, black , rgb(33, 33, 33));
+	border: 0px solid rgb(65, 65, 65);
+	border-radius: 10px;
+}
+
+.pacilogo *{
+	color: whitesmoke;
+}
+
+.flogo{
+	display: flex;
+	flex-direction: column;
+	background: lightblue;
+	border: 0px solid rgb(65, 65, 65);
+	border-radius: 10px;
+}
+
+.flogo *{
+	color: lightgoldenrodyellow
 }
 
 .gallery a{
@@ -432,4 +466,24 @@ h1, h2, h3, h4, h5, h6 {
 .resume-link:focus{
 	text-decoration: none;
 	color: #edf5e1;
+}
+
+.social{
+	background-color: #edf5e1;
+}
+
+.project-head{
+	font-variant: small-caps;
+}
+
+.skills img{
+	width: 110px;
+	height: 110px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.skills{
+	background-color: #264653;
+	width: 100vw;
 }
